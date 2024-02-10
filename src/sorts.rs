@@ -14,7 +14,6 @@ fn bubble_sort(arr : &mut Vec<isize>) {
     }
 }
 
-
 fn insertion_sort(arr: &mut Vec<isize>) {
     for i in 0..arr.len() {
         let x = arr[i];

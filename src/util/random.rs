@@ -10,3 +10,8 @@ pub fn generate_random_array(
         .map(|_| rng.gen_range(min_number..max_number))
         .collect()
 }
+
+pub fn generate_random_number(min_number: isize, max_number: isize) -> isize {
+    let mut rng = rand::thread_rng();
+    rng.gen_range(min_number..max_number)
+}
