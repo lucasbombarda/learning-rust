@@ -11,6 +11,11 @@ path = "src/sorts.rs"
 name = "two_sums"
 path = "src/two_sums.rs"
 
+
+[[bin]]
+name = "linear_search"
+path = "src/linear_search.rs"
+
 [[bin]]
 name = "leetcode_1"
 path = "src/leetcode_1.rs"
