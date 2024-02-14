@@ -28,6 +28,10 @@ path = "src/leetcode_2.rs"
 name = "leetcode_3"
 path = "src/leetcode_3.rs"
 
+[[bin]]
+name = "leetcode_4"
+path = "src/leetcode_4.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 rand = "0.8"
