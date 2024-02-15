@@ -11,7 +11,6 @@ path = "src/sorts.rs"
 name = "two_sums"
 path = "src/two_sums.rs"
 
-
 [[bin]]
 name = "linear_search"
 path = "src/linear_search.rs"

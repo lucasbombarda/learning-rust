@@ -17,3 +17,18 @@ fn main() {
 
     println!("{} is on index {}", target, idx);
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_correct_index() {
+        assert_eq!(linear_search(&vec![1, 2, 3, 4], 3), 2);
+    }
+
+    #[test]
+    fn test_incorrect_index() {
+        assert_eq!(linear_search(&vec![1, 2, 3, 4], 5), -1);
+    }
+}
