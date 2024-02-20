@@ -16,6 +16,14 @@ name = "linear_search"
 path = "src/linear_search.rs"
 
 [[bin]]
+name = "threads_1"
+path = "src/threads_1.rs"
+
+[[bin]]
+name = "threads_2"
+path = "src/threads_2.rs"
+
+[[bin]]
 name = "leetcode_1"
 path = "src/leetcode_1.rs"
 
