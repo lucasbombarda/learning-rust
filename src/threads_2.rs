@@ -1,11 +1,15 @@
 use std::thread;
+use std::sync::mpsc;
 
 fn main() {
-    println!("Hello from the main thread");
+    let (tx, rx) = mpsc::channel();
 
-    let handle = thread::spawn(|| {
-        println!("Hello from a thread");
+    thread::spawn(move || {
+        let msg = String::from("Hello from the other side");
+
+        tx.send(msg).unwrap();
     });
 
-    handle.join().unwrap();
+    let received = rx.recv().unwrap();
+    println!("Received: {}", received);
 }
