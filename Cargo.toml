@@ -31,6 +31,10 @@ path = "src/threads_3.rs"
 name = "threads_4"
 path = "src/threads_4.rs"
 
+[[bin]]
+name = "threads_5"
+path = "src/threads_5.rs"
+
 # Leetcode problems
 
 [[bin]]
