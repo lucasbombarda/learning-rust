@@ -10,7 +10,7 @@ impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
         let mut result = 0;
         let mut start = 0;
-        let mut end = 0;
+        let mut end: usize;
         let mut map = HashMap::new();
 
         for (idx, c) in s.chars().enumerate() {
@@ -22,7 +22,6 @@ impl Solution {
             result = max(result, end - start);
         }
         result as i32
-
     }
 }
 
