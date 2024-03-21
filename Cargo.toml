@@ -35,6 +35,14 @@ path = "src/threads_4.rs"
 name = "threads_5"
 path = "src/threads_5.rs"
 
+[[bin]]
+name = "threads_6"
+path = "src/threads_6.rs"
+
+[[bin]]
+name = "threads_7"
+path = "src/threads_7.rs"
+
 # Leetcode problems
 
 [[bin]]
@@ -76,3 +84,4 @@ path = "src/leetcode_9.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 rand = "0.8"
+rayon = "1.9"
