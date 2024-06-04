@@ -10,7 +10,7 @@ Ensure Rust and Cargo is installed.
 git clone https://github.com/lucasbombarda/learning-rust
 ```
 
-2. Simple run any Rust file inside src/ using cargo:
+2. Simple run any Rust file inside src/bin/ using cargo:
 ```bash
 cargo run --bin sorts
 ```
